@@ -453,7 +453,7 @@ def main():
         
     
     #about the developer
-    with st.expander("Need Help....."):
+    with st.expander("Connect to Developer"):
         st.image("Dixit.jpg",width = 250)
         contact = """
     <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; align-items: center; max-width: 500px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 20px;">
