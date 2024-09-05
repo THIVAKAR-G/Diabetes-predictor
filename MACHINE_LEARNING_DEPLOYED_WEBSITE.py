@@ -453,19 +453,19 @@ def main():
         
     
     #about the developer
-    with st.expander("Connect to Developer"):
-        st.image("Dixit.jpg",width = 250)
-        contact = """
-    <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; align-items: center; max-width: 500px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 20px;">
-        <input type="hidden" name="access_key" value="4a3e6ae5-8815-4597-859c-7394b8658d1b">
-        <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
-        <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
-        <textarea name="message" placeholder="Tell us your problem" required style="width: 100%; height: 150px; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 10px;"></textarea>
-        <button type="submit" style="padding: 10px 20px; background-color: gold; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Send</button>
-    </form>   """
+    # with st.expander("Connect to Developer"):
+    #     st.image("Dixit.jpg",width = 250)
+    #     contact = """
+    # <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; align-items: center; max-width: 500px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 20px;">
+    #     <input type="hidden" name="access_key" value="4a3e6ae5-8815-4597-859c-7394b8658d1b">
+    #     <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+    #     <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+    #     <textarea name="message" placeholder="Tell us your problem" required style="width: 100%; height: 150px; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 10px;"></textarea>
+    #     <button type="submit" style="padding: 10px 20px; background-color: gold; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Send</button>
+    # </form>   """
 
         
-        st.markdown(contact, unsafe_allow_html=True)
+        # st.markdown(contact, unsafe_allow_html=True)
      
 
 
